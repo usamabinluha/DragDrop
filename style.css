@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: azure;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #5d2116;
+  height: 500px;
+  margin: 20px;
+  border: 2px dashed black;
+  width: 300px;
+  padding: 10px;
+}
+
+.item {
+  border: 1px solid white;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.item:hover {
+  cursor: grab;
+}
